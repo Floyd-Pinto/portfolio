@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Floyd Pinto — Full-Stack Developer</title>
+  <meta name="description" content="Floyd Pinto — Computer Science Engineering student building full-stack web apps, microservices, and ML-powered systems." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="spotlight" aria-hidden="true"></div>
+  <a href="#content" class="skip-link">Skip to Content</a>
+
+  <!-- Reusable arrow icons -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="arrow-up-right" viewBox="0 0 20 20"><path fill="currentColor" fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"/></symbol>
+    <symbol id="arrow-right" viewBox="0 0 20 20"><path fill="currentColor" fill-rule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clip-rule="evenodd"/></symbol>
+  </svg>
+
+  <div class="container">
+    <div class="layout">
+      <!-- ===== Left column (sticky on desktop) ===== -->
+      <header class="sidebar">
+        <div>
+          <h1 class="name"><a href="/">Floyd Pinto</a></h1>
+          <h2 class="role">Full-Stack Developer</h2>
+          <p class="tagline">I build full-stack apps, cloud-native microservices, and ML-powered systems that ship.</p>
+
+          <nav class="nav" aria-label="In-page jump links">
+            <ul>
+              <li><a href="#about" class="nav-link active"><span class="nav-indicator"></span><span class="nav-text">About</span></a></li>
+              <li><a href="#experience" class="nav-link"><span class="nav-indicator"></span><span class="nav-text">Experience</span></a></li>
+              <li><a href="#projects" class="nav-link"><span class="nav-indicator"></span><span class="nav-text">Projects</span></a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <ul class="socials" aria-label="Social media">
+          <li>
+            <a href="https://github.com/Floyd-Pinto" target="_blank" rel="noreferrer noopener" aria-label="GitHub">
+              <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/in/floyd-pinto" target="_blank" rel="noreferrer noopener" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"/></svg>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:floydpinto5@gmail.com" aria-label="Email">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+            </a>
+          </li>
+          <li>
+            <a href="resume.pdf" target="_blank" rel="noreferrer noopener" aria-label="Résumé">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8"/></svg>
+            </a>
+          </li>
+        </ul>
+      </header>
+
+      <!-- ===== Right column (scrolls) ===== -->
+      <main id="content" class="main">
+        <!-- About -->
+        <section id="about" class="section" aria-label="About me">
+          <div class="section-heading"><h2>About</h2></div>
+          <div class="prose">
+            <p>
+              I'm a Computer Science Engineering student at
+              <a href="https://www.spit.ac.in/" target="_blank" rel="noreferrer noopener" class="inline-link">Sardar Patel Institute of Technology</a>
+              in Mumbai, and I like building things end to end, from the
+              <span class="hl">database and APIs</span> to the <span class="hl">interface people actually use</span>.
+            </p>
+            <p>
+              I work mostly in <span class="hl">Java, Python, TypeScript and SQL</span>, building
+              microservices, RESTful APIs and React frontends. I've shipped full-stack projects with
+              CI/CD pipelines, automated testing, JWT/OAuth security, and even blockchain-backed audit trails.
+            </p>
+            <p>
+              Lately I've been working on the overlap of <span class="hl">cloud and machine learning</span>.
+              For my final-year project I'm building an autoscaler that uses LSTM forecasts to provision
+              capacity before load arrives.
+            </p>
+            <p>
+              Outside of code, I led operations for Oculus, SPIT's annual technical festival.
+            </p>
+          </div>
+        </section>
+
+        <!-- Experience -->
+        <section id="experience" class="section" aria-label="Experience and education">
+          <div class="section-heading"><h2>Experience</h2></div>
+          <ol class="card-list">
+            <li>
+              <div class="card">
+                <div class="card-bg"></div>
+                <header class="card-date">2024 — 2025</header>
+                <div class="card-body">
+                  <h3>
+                    <span class="card-title">Head of Operations · Oculus, SPIT</span>
+                  </h3>
+                  <p>Led the operations team across 3 workstreams, enforcing milestones and delivery standards under tight deadlines. Coordinated external vendors and campus stakeholders, resolving on-site issues within same-day deadlines.</p>
+                  <ul class="tags"><li>Leadership</li><li>Operations</li><li>Stakeholder Management</li></ul>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="card">
+                <div class="card-bg"></div>
+                <header class="card-date">Expected 2027</header>
+                <div class="card-body">
+                  <h3>
+                    <a href="https://www.spit.ac.in/" target="_blank" rel="noreferrer noopener" class="card-title">
+                      <span class="card-hit"></span>
+                      B.Tech, Computer Science &amp; Engineering · Sardar Patel Institute of Technology
+                      <svg class="arrow" aria-hidden="true"><use href="#arrow-up-right"/></svg>
+                    </a>
+                  </h3>
+                  <p>Coursework in Data Structures &amp; Algorithms, Object-Oriented Programming (Java), DBMS (SQL), Operating Systems, Computer Networks, and Software Engineering.</p>
+                  <ul class="tags"><li>DSA</li><li>Java</li><li>SQL</li><li>OS</li><li>Networks</li></ul>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="card">
+                <div class="card-bg"></div>
+                <header class="card-date">2026</header>
+                <div class="card-body">
+                  <h3>
+                    <span class="card-title">Industry Job Simulations · JPMorganChase &amp; Goldman Sachs</span>
+                  </h3>
+                  <p>Completed the JPMorganChase Investment Banking and Goldman Sachs Risk Management job simulations.</p>
+                  <ul class="tags"><li>Investment Banking</li><li>Risk Management</li></ul>
+                </div>
+              </div>
+            </li>
+          </ol>
+          <div class="more-link">
+            <a href="resume.pdf" target="_blank" rel="noreferrer noopener" class="arrow-link">
+              View Full Résumé
+              <svg class="arrow-right" aria-hidden="true"><use href="#arrow-right"/></svg>
+            </a>
+          </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="section" aria-label="Selected projects">
+          <div class="section-heading"><h2>Projects</h2></div>
+          <ul class="card-list">
+            <li>
+              <div class="card project">
+                <div class="card-bg"></div>
+                <div class="card-body">
+                  <h3>
+                    <a href="https://apnaghar-five.vercel.app" target="_blank" rel="noreferrer noopener" class="card-title">
+                      <span class="card-hit"></span>
+                      ApnaGhar: Blockchain Real-Estate Platform
+                      <svg class="arrow" aria-hidden="true"><use href="#arrow-up-right"/></svg>
+                    </a>
+                  </h3>
+                  <p>A real-estate platform with 25 shipped features: Hyperledger Fabric smart contracts and SHA-256 hashing on IPFS for tamper-proof property audit trails, a RAG chatbot over property and legal documents, JWT/Google OAuth, and Razorpay payments.</p>
+                  <a href="https://github.com/Floyd-Pinto/ApnaGhar" target="_blank" rel="noreferrer noopener" class="sub-link">
+                    <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+                    Source
+                  </a>
+                  <ul class="tags"><li>React</li><li>TypeScript</li><li>Django</li><li>PostgreSQL</li><li>Hyperledger</li><li>RAG</li></ul>
+                </div>
+                <div class="thumb" style="--hue: 168">ApnaGhar</div>
+              </div>
+            </li>
+            <li>
+              <div class="card project">
+                <div class="card-bg"></div>
+                <div class="card-body">
+                  <h3>
+                    <a href="https://github.com/Floyd-Pinto/MLCloudScheduler" target="_blank" rel="noreferrer noopener" class="card-title">
+                      <span class="card-hit"></span>
+                      MLCloudScheduler: Adaptive Cloud Scheduling
+                      <svg class="arrow" aria-hidden="true"><use href="#arrow-up-right"/></svg>
+                    </a>
+                  </h3>
+                  <p>Final-year project: forecasting CPU, memory and network I/O with a multi-resource LSTM (R² 0.929 vs 0.562 for ARIMA), cutting overload events by 39–62% compared with threshold autoscaling. Includes Isolation Forest anomaly detection, a Django REST API, and a React + Chart.js dashboard.</p>
+                  <ul class="tags"><li>PyTorch</li><li>Scikit-learn</li><li>Django</li><li>React</li><li>Docker</li></ul>
+                </div>
+                <div class="thumb" style="--hue: 220">ML Scheduler</div>
+              </div>
+            </li>
+            <li>
+              <div class="card project">
+                <div class="card-bg"></div>
+                <div class="card-body">
+                  <h3>
+                    <a href="https://github.com/Sidth3dr3amer/F1_Fantasy" target="_blank" rel="noreferrer noopener" class="card-title">
+                      <span class="card-hit"></span>
+                      F1 Fantasy: Cloud-Native Microservices
+                      <svg class="arrow" aria-hidden="true"><use href="#arrow-up-right"/></svg>
+                    </a>
+                  </h3>
+                  <p>AWS infrastructure (EC2, S3) provisioned as code with Terraform, hosting a containerized Node.js microservice and React frontend. A Jenkins CI/CD pipeline triggered by GitHub webhooks runs unit tests on every commit. Load-tested to find and fix race conditions and memory leaks.</p>
+                  <ul class="tags"><li>AWS</li><li>Terraform</li><li>Jenkins</li><li>Docker</li><li>Node.js</li></ul>
+                </div>
+                <div class="thumb" style="--hue: 0">F1 Fantasy</div>
+              </div>
+            </li>
+            <li>
+              <div class="card project">
+                <div class="card-bg"></div>
+                <div class="card-body">
+                  <h3>
+                    <a href="https://github.com/Floyd-Pinto/portfolio-risk-analytics" target="_blank" rel="noreferrer noopener" class="card-title">
+                      <span class="card-hit"></span>
+                      Portfolio Risk Analytics
+                      <svg class="arrow" aria-hidden="true"><use href="#arrow-up-right"/></svg>
+                    </a>
+                  </h3>
+                  <p>Pulls 2 years of daily prices for Indian and US equities, computes VaR, drawdown and volatility, stores the results in SQLite, and produces a ranked risk report with charts.</p>
+                  <ul class="tags"><li>Python</li><li>SQLAlchemy</li><li>SQLite</li><li>yfinance</li></ul>
+                </div>
+                <div class="thumb" style="--hue: 140">Risk</div>
+              </div>
+            </li>
+            <li>
+              <div class="card project">
+                <div class="card-bg"></div>
+                <div class="card-body">
+                  <h3>
+                    <a href="https://github.com/Floyd-Pinto/BookMe" target="_blank" rel="noreferrer noopener" class="card-title">
+                      <span class="card-hit"></span>
+                      BookMe: Train Booking System
+                      <svg class="arrow" aria-hidden="true"><use href="#arrow-up-right"/></svg>
+                    </a>
+                  </h3>
+                  <p>A modern train booking platform with a Django REST Framework backend and a Next.js frontend, backed by PostgreSQL.</p>
+                  <ul class="tags"><li>Next.js</li><li>TypeScript</li><li>Django REST</li><li>PostgreSQL</li></ul>
+                </div>
+                <div class="thumb" style="--hue: 260">BookMe</div>
+              </div>
+            </li>
+            <li>
+              <div class="card project">
+                <div class="card-bg"></div>
+                <div class="card-body">
+                  <h3>
+                    <a href="https://github.com/Floyd-Pinto/Aerosol-Optical-Depth" target="_blank" rel="noreferrer noopener" class="card-title">
+                      <span class="card-hit"></span>
+                      Aerosol Optical Depth Analysis
+                      <svg class="arrow" aria-hidden="true"><use href="#arrow-up-right"/></svg>
+                    </a>
+                  </h3>
+                  <p>Air-quality analysis over Maharashtra using NASA satellite and meteorological data, implementing a research method for modelling the AOD–PM2.5 relationship.</p>
+                  <ul class="tags"><li>Python</li><li>Jupyter</li><li>Data Science</li></ul>
+                </div>
+                <div class="thumb" style="--hue: 30">AOD</div>
+              </div>
+            </li>
+          </ul>
+          <div class="more-link">
+            <a href="https://github.com/Floyd-Pinto?tab=repositories" target="_blank" rel="noreferrer noopener" class="arrow-link">
+              View All Projects on GitHub
+              <svg class="arrow-right" aria-hidden="true"><use href="#arrow-right"/></svg>
+            </a>
+          </div>
+        </section>
+
+        <footer class="footer">
+          <p>
+            Built with plain <span class="hl-soft">HTML</span>, <span class="hl-soft">CSS</span> and
+            <span class="hl-soft">JavaScript</span>, set in the
+            <a href="https://rsms.me/inter/" target="_blank" rel="noreferrer noopener" class="inline-link">Inter</a> typeface.
+          </p>
+        </footer>
+      </main>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
