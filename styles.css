@@ -359,15 +359,6 @@ h1, h2, h3, p { margin: 0; }
 .arrow-link:focus-visible .arrow-right { transform: translateX(8px); }
 .arrow-link:hover { color: var(--accent); }
 
-/* ===== Footer ===== */
-.footer {
-  max-width: 28rem;
-  padding-bottom: 4rem;
-  font-size: 0.875rem;
-  color: var(--text-dim);
-}
-.footer .hl-soft { color: var(--text); }
-
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   * { transition: none !important; }
