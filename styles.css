@@ -364,18 +364,3 @@ h1, h2, h3, p { margin: 0; }
   * { transition: none !important; }
 }
 
-/* Secondary link inside a card (e.g. "Source"), sits above the card's click area */
-.sub-link {
-  position: relative;
-  z-index: 20;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.375rem;
-  margin-top: 0.5rem;
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: var(--text-bright);
-  transition: color 0.15s;
-}
-.sub-link svg { width: 14px; height: 14px; }
-.sub-link:hover, .sub-link:focus-visible { color: var(--accent); }
